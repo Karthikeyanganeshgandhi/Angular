@@ -1,0 +1,12 @@
+<h2>This is Example Component</h2>
+<h4>Hi Welcome {{name}}</h4>
+<button [disabled]="isDisable">Click me</button>
+<form>
+    <input type="text" [(ngModel)]="name" name="name">
+</form>
+
+<p *ngIf="isPresent">P is present</p>
+
+<ul *ngFor="let lang of languages">
+    <li>{{lang}}</li>
+</ul>

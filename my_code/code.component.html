@@ -1,0 +1,16 @@
+<h2>This is an example component</h2>
+<h2>vanakkam {{name}}</h2>
+<button [disabled]="isDisable">click yes</button>
+
+<form>
+    <input type="text" [(ngModel)]="name" name="name" >
+</form>
+
+<p *ngIf="ispresent">this ia a p</p>
+
+<ul *ngFor="let a of courses">
+    <li>{{a}}</li>
+
+</ul>
+
+

@@ -1,0 +1,16 @@
+
+h2{
+    color: black;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+button{
+    width: 400px;
+    height: 30px;
+}
+ul{
+    font-style: normal;
+    color: black;
+    font-size: 30px;
+}
